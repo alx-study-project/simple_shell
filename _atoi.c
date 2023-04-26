@@ -6,7 +6,7 @@
  */
 int interactive(info_t *info)
 {
-	int interactive(info_t *info)
+	return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
 /**
  * is_delim - checks if character is a delimeter

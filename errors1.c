@@ -73,7 +73,7 @@ int print_d(int input, int fd)
 			__putchar('0' + current / i);
 			count++;
 		}
-		current %= i
+		current %= i;
 	}
 	__putchar('0' + current);
 	count++;
